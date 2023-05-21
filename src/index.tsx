@@ -8,11 +8,13 @@ import reportWebVitals from './reportWebVitals';
 // Routes imports
 import Home from './Routes/Home';
 import Category from './Routes/Category';
+import ErrorPage from './Routes/ErrorPage';
 
 const router = createBrowserRouter([
 {
   path: "/", 
   element:<App/>,
+  errorElement: <ErrorPage/>,
   children:[
   {
     path:"/",
