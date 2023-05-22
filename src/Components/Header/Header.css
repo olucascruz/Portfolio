@@ -3,4 +3,14 @@
     display: flex;
     font-size: calc(5px + 2vmin);
     color: rgb(226, 9, 9);
+    align-content: center;
+  }
+
+  .App-header > button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+    color: whitesmoke;
   }

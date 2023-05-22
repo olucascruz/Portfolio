@@ -6,9 +6,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // Routes imports
-import Home from './Routes/Home';
-import Category from './Routes/Category';
-import ErrorPage from './Routes/ErrorPage';
+import Home from './Routes/Home/Home';
+import Category from './Routes/Category/Category';
+import ErrorPage from './Routes/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
 {

@@ -1,0 +1,18 @@
+.App-home{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    background-color: rgb(207, 206, 206);
+}
+
+.Home-description{
+    background-color: aqua;
+    display:flex;
+    flex-direction: row;
+}
+
+.Home-description > p{
+    margin-top: 50px;
+    margin-left: 10px;    
+}
