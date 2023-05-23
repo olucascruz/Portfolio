@@ -2,17 +2,37 @@
     display: flex;
     flex-direction: column;
     height: 200px;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: rgb(207, 206, 206);
+    height: 100vh;
 }
 
 .Home-description{
-    background-color: aqua;
+    background-color: rgb(218, 140, 228);
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+    height: 40%;
+    align-items: center;
+
 }
 
-.Home-description > p{
+.Home-description > h4{
     margin-top: 50px;
-    margin-left: 10px;    
+    margin-left: 10px;
+    color: white;
 }
+
+.Home-description > button {
+    background: rgba(255, 255, 255, 0.233);
+    border: 2px solid white;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+    width: 100px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+
+  .Home-description > button:hover {
+    background: rgba(255, 255, 255, 0.781);
+  } 
