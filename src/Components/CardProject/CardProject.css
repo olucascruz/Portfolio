@@ -1,0 +1,9 @@
+.CardProject{
+    width: 200px;
+    height: 250px;
+    margin-left: 10px;
+}
+
+.CardProject > .CardContent > .TitleCard{
+    font-weight: 500;
+}
