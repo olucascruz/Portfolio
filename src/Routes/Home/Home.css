@@ -3,36 +3,42 @@
     flex-direction: column;
     height: 200px;
     justify-content: flex-start;
-    background-color: rgb(207, 206, 206);
+    background-color: rgba(207, 206, 206, 0.986);
     height: 100vh;
 }
 
-.Home-description{
-    background-color: rgb(218, 140, 228);
+.FirstSection{
+    background-color: #383838;
     display:flex;
     flex-direction: column;
-    height: 40%;
+    height: 50%;
     align-items: center;
-
 }
 
-.Home-description > h4{
-    margin-top: 50px;
+.Home-description{
+    height: 100vh;
+    font-size: 25px;
+}
+.Home-description > p{
+    position: relative;
+    margin-top: 100px;
     margin-left: 10px;
-    color: white;
+    color: rgba(253, 253, 253, 0.842);
 }
 
-.Home-description > button {
-    background: rgba(255, 255, 255, 0.233);
-    border: 2px solid white;
-    padding: 0;
-    cursor: pointer;
-    outline: inherit;
-    width: 100px;
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-  }
 
-  .Home-description > button:hover {
-    background: rgba(255, 255, 255, 0.781);
-  } 
+.AboutMe{
+    background-color: gainsboro;
+    border-top-left-radius: 65px;
+    border-top-right-radius: 65px;
+    margin-top: -100px;
+    height: 50%;
+}
+
+.AboutMe > h2{
+    margin-left: -300px;
+}
+
+.SectionCategory > h3{
+    margin-left: -300px;
+}
