@@ -1,13 +1,28 @@
 .App-header {
-    background-color: #333436;
+    background-color: #ffffff11;
     display: flex;
+    position: absolute;
+    width: 100% ;
     font-size: calc(5px + 2vmin);
-    color: rgb(255, 255, 255);
+    color: rgb(241, 14, 14);
     align-content: center;
   }
 
-.App-header > h1{
+
+.Name > h1{
+  color: white;
   font-size: large;
   font-weight: normal;
   margin-left: 10px;
+}
+
+.Categories{
+  display: flex;
+  flex-direction: row;
+  margin-left: 50%;
+}
+
+.Categories > .CategoryProject {
+  color: white;
+  margin-left: 5px;
 }
