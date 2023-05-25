@@ -7,7 +7,6 @@ import reportWebVitals from './reportWebVitals';
 
 // Routes imports
 import Home from './Routes/Home/Home';
-import Category from './Routes/Category/Category';
 import ErrorPage from './Routes/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
@@ -19,10 +18,6 @@ const router = createBrowserRouter([
   {
     path:"/",
     element: <Home/>
-  },
-  {
-    path:"category",
-    element: <Category/>
   }
   ]
 },
