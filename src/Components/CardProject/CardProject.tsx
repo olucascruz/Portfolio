@@ -8,10 +8,12 @@ type CardProps ={
     titleCard:string
     tech: string[]
     description: string
+    link: string
+    hasDeploy: boolean
 }
 
 function CardProject(props: CardProps) {
-    const { titleCard, tech, description} = props;
+    const { titleCard, tech, description, hasDeploy} = props;
     return (
     <Card className= "CardProject" sx={{ minWidth: 20 }}>
       <CardContent className="CardContent">
@@ -22,7 +24,7 @@ function CardProject(props: CardProps) {
         <p className="DescriptionCard">{description}</p>
       </CardContent>
       <CardActions>
-        <Button size="small">Acessar</Button>
+        <Button size="small">{hasDeploy ? "Acessar":"Ver Repositorio"}</Button>
       </CardActions>
     </Card>
   );

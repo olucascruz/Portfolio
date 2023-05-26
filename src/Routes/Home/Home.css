@@ -10,15 +10,23 @@
 .FirstSection{
     background-color: #383838;
     display:flex;
+    text-align: center;
     flex-direction: column;
-    height: 50%;
+    height: 70%;
     align-items: center;
 }
 
 .Home-description{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    font-size: 25px;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 150;
+    color: rgb(30, 255, 0);
+
 }
+
 .Home-description > p{
     position: relative;
     margin-top: 100px;
@@ -26,6 +34,12 @@
     color: rgba(253, 253, 253, 0.842);
 }
 
+.ImageCode{
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .AboutMe{
     background-color: gainsboro;
@@ -36,9 +50,108 @@
 }
 
 .AboutMe > h2{
-    margin-left: -300px;
+    margin-left: 50px;
+}
+
+.AboutMe > h3{
+    margin-left: 50px;
+}
+
+.SectionCategory{
+    min-height: auto;
 }
 
 .SectionCategory > h3{
     margin-left: -300px;
 }
+
+.IconAboutMe{
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 100px;   
+}
+
+.listAboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listAboutMe li{
+    display: flex;
+    clear:both;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.listAboutMe img {
+    float: left;
+    margin-right: 10px;
+  }
+  
+.listAboutMe span {
+    display: block;
+  }
+
+.AboutMe{
+    height: 500px;
+}
+/* Estilos para telas grandes (desktop) */
+@media (min-width: 1024px) {
+    .Home-description{
+        font-weight: 200;
+        font-size: 3rem;        
+        flex-direction: row;
+    }
+    
+    .Home-description > p{
+        width: 300px;
+        text-align: justify;
+        margin-left: 150px;
+    }
+
+    .ImageCode{
+        height: 200px;
+        width: 200px;
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+
+    .FirstSection{
+        
+        height: 80%;
+        
+    }
+}
+  
+  /* Estilos para telas médias (tablets) */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .Home-description{
+        font-size: 2rem;
+        font-weight: 300;
+        flex-direction: row;    
+    }
+    .Home-description > p{
+        width: 200px;
+        text-align: justify;
+        margin-left: 150px;
+    }
+
+    .FirstSection{
+        height: 70%;
+    }
+
+    .ImageCode{
+        height: 150px;
+        width: 150px;
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+  }
+
+
+  
