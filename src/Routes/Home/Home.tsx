@@ -37,9 +37,9 @@ function Home(){
                 </ul>
                 <h3>Aprendendo</h3>
                 <ul>
-                    <li>Kotlin</li>
-                    <li>Design de interação</li>
-                    <li>Engenharia de Software</li>
+                    <li className="TextAboutMe" >Kotlin</li>
+                    <li className="TextAboutMe" >Design de interação</li>
+                    <li className="TextAboutMe">Engenharia de Software</li>
                 </ul>
                 <h3>Stack</h3>
 

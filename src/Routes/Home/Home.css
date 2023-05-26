@@ -21,7 +21,7 @@
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    font-size: 22px;
+    font-size: 50px;
     font-weight: 150;
     color: rgb(30, 255, 0);
 
@@ -104,39 +104,57 @@ ul {
 @media (min-width: 1024px) {
     .Home-description{
         font-weight: 200;
-        font-size: 3rem;        
+        font-size: 5rem;        
         flex-direction: row;
     }
     
     .Home-description > p{
-        width: 300px;
+        width: 500px;
         text-align: justify;
-        margin-left: 150px;
+        margin-left: 25%;
     }
 
     .ImageCode{
-        height: 200px;
-        width: 200px;
-        margin-top: 100px;
-        margin-left: 200px;
+        height: 250px;
+        width: 250px;
+        margin-top: 150px;
+        margin-left: 100px;
     }
 
     .FirstSection{
-        
         height: 80%;
-        
+    }
+
+    .AboutMe{
+        height: auto;
+    }
+    .AboutMe > h2{
+        font-size: 50px;
+    }
+
+    .AboutMe > h3{
+        font-size: 30px;
+    }
+
+    .IconAboutMe{
+        width: 50px;
+        height: 50px;
+    }
+    .TextAboutMe{
+        font-size: 25px;
     }
 }
   
   /* Estilos para telas médias (tablets) */
 @media (max-width: 1023px) and (min-width: 768px) {
     .Home-description{
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 300;
-        flex-direction: row;    
+        flex-direction: row;
+        height: 500px;    
     }
     .Home-description > p{
-        width: 200px;
+        width: 300px;
         text-align: justify;
         margin-left: 150px;
     }
@@ -148,8 +166,8 @@ ul {
     .ImageCode{
         height: 150px;
         width: 150px;
-        margin-top: 100px;
-        margin-left: 200px;
+        margin-top: 120px;
+        margin-left: 100px;
     }
   }
 
