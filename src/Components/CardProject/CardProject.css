@@ -1,10 +1,40 @@
 .CardProject{
+    display: flex;
+    flex-direction: column;
     width: 200px;
     height: 250px;
     margin-left: 10px;
     margin-bottom: 50px;
 }
 
+.CardActions{
+    margin-top: auto;
+}
+
 .CardProject > .CardContent > .TitleCard{
     font-weight: 500;
+}
+
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .CardProject{
+        width: 200px;
+        height: 250px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    .CardProject{
+        width: 400px;
+        height: 500px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+
+    
+
 }

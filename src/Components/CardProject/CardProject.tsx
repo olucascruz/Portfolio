@@ -23,7 +23,7 @@ function CardProject(props: CardProps) {
         })}
         <p className="DescriptionCard">{description}</p>
       </CardContent>
-      <CardActions>
+      <CardActions className="CardActions">
         <Button size="small">{hasDeploy ? "Acessar":"Ver Repositorio"}</Button>
       </CardActions>
     </Card>
