@@ -6,6 +6,8 @@ import iconGame from './img/games-icon.jpg'
 import iconWeb from './img/web-png-icon-10.jpg'
 
 import CardProject from '../../Components/CardProject/CardProject'
+import CardTechnologies from '../../Components/CardTechnologies/CardTechnologies'
+
 function Home(){
     return(
         <div className="App-home">
@@ -41,10 +43,11 @@ function Home(){
                     <li className="TextAboutMe" >Design de interação</li>
                     <li className="TextAboutMe">Engenharia de Software</li>
                 </ul>
-                <h3>Stack</h3>
-
             </section>
-
+            <section className="Stack">
+                <h3>Tecnologias</h3>
+                <CardTechnologies></CardTechnologies>
+            </section>
             <section className="SectionWeb SectionCategory">
                 <h3>Projetos Web</h3>
                 <CardProject 
