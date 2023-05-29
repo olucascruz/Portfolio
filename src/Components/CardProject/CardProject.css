@@ -13,10 +13,11 @@
 
 .CardProject > .CardContent > .TitleCard{
     font-weight: 500;
+    font-size: 16px;
 }
 
 
-@media (max-width: 1023px) and (min-width: 768px) {
+@media (max-width: 1020px) and (min-width: 768px) {
     .CardProject{
         width: 200px;
         height: 250px;
@@ -24,10 +25,18 @@
         margin-bottom: 50px;
     }
 
+    .CardProject > .CardContent > .TitleCard{
+        font-weight: 750;
+        font-size: 24px;
+    }
+    .CardProject > .CardContent > .DescriptionCard{
+        font-size: 18px;
+    }
+
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1021px) {
     .CardProject{
         width: 400px;
         height: 500px;
@@ -35,6 +44,12 @@
         margin-bottom: 50px;
     }
 
-    
+    .CardProject > .CardContent > .TitleCard{
+        font-weight: 750;
+        font-size: 34px;
+    }
+    .CardProject > .CardContent > .DescriptionCard{
+        font-size: 24px;
+    }   
 
 }

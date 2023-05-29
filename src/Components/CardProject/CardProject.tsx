@@ -12,10 +12,15 @@ type CardProps ={
     hasDeploy: boolean
 }
 
+const theme = { 
+    minWidth: 20, 
+    maxWidth: 400, 
+    backgroundColor: 'gray' }
+
 function CardProject(props: CardProps) {
     const { titleCard, tech, description, hasDeploy} = props;
     return (
-    <Card className= "CardProject" sx={{ minWidth: 20 }}>
+    <Card className= "CardProject" sx={theme}>
       <CardContent className="CardContent">
         <p className="TitleCard">{titleCard}</p>
         {tech.map(element => {
@@ -24,7 +29,7 @@ function CardProject(props: CardProps) {
         <p className="DescriptionCard">{description}</p>
       </CardContent>
       <CardActions className="CardActions">
-        <Button size="small">{hasDeploy ? "Acessar":"Ver Repositorio"}</Button>
+        <Button sx={{color:'black'}} size="small">{hasDeploy ? "Acessar":"Ver Repositorio"}</Button>
       </CardActions>
     </Card>
   );
