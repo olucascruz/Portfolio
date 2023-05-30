@@ -1,0 +1,7 @@
+.SectionCategory{
+    min-height: auto;
+}
+
+.SectionCategory > h3{
+    margin-left: 0px;
+}
