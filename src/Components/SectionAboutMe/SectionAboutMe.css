@@ -1,0 +1,15 @@
+.AboutMe{
+    background-color: gainsboro;
+    border-top-left-radius: 65px;
+    border-top-right-radius: 65px;
+    margin-top: -100px;
+    height: auto;
+}
+
+.AboutMe > h2{
+    margin-left: 50px;
+}
+
+.AboutMe > h3{
+    margin-left: 50px;
+}
