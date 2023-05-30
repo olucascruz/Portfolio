@@ -41,28 +41,14 @@
     margin-left: auto;
 }
 
-.AboutMe{
-    background-color: gainsboro;
-    border-top-left-radius: 65px;
-    border-top-right-radius: 65px;
-    margin-top: -100px;
-    height: 50%;
-}
 
-.AboutMe > h2{
-    margin-left: 50px;
-}
-
-.AboutMe > h3{
-    margin-left: 50px;
-}
 
 .SectionCategory{
     min-height: auto;
 }
 
 .SectionCategory > h3{
-    margin-left: -300px;
+    margin-left: 0px;
 }
 
 .IconAboutMe{
@@ -97,9 +83,14 @@ ul {
     display: block;
   }
 
-.AboutMe{
-    height: 500px;
+
+
+.CardsTech{
+    display: flex;
+    flex-direction: column;
 }
+
+
 /* Estilos para telas grandes (desktop) */
 @media (min-width: 1024px) {
     .Home-description{
@@ -143,6 +134,12 @@ ul {
     .TextAboutMe{
         font-size: 25px;
     }
+
+    .CardsTech{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
   
   /* Estilos para telas médias (tablets) */
@@ -168,6 +165,12 @@ ul {
         width: 150px;
         margin-top: 120px;
         margin-left: 100px;
+    }
+
+    .CardsTech{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
   }
 
