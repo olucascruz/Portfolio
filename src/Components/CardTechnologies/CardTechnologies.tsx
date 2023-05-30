@@ -1,7 +1,6 @@
 import './CardTechnologies.css'
-import { Card, CardContent, ThemeProvider, createTheme } from "@mui/material"
+import { Card, CardContent} from "@mui/material"
 import { IconType } from 'react-icons';
-import { useState } from 'react';
 
 interface IconData {
     icon: IconType;
