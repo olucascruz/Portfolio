@@ -1,9 +1,9 @@
-.CardTechnologies > .Icons{
+.Icons{
     display: flex;
     justify-content: space-around;
 }
 
 .CardTechnologies{
     margin-bottom: 25px;
-    
+    width: 400px;
 }
