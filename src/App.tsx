@@ -1,15 +1,25 @@
-import React from 'react';
+import {useState } from 'react';
 import './App.css';
 import Header from './Components/Header/Header'
-
-import { Outlet} from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
+import MyContext from './Context';
 
 function App() {
+  const [theme, setTheme] = useState("dark")
+    const switchThemeHandler = () =>{
+      if(theme === "dark"){  
+        setTheme("light")
+      }else{
+        setTheme("dark")
+      }
+    }
   return (
-    <div className="App">
-      <Header/>
-      <Outlet/>
-    </div>
+    <MyContext.Provider value={{ theme, switchThemeHandler }}>
+      <div className={`App ${theme}`}>
+        <Header />
+        <Outlet/>
+      </div>
+    </MyContext.Provider>
   );
 }
 
