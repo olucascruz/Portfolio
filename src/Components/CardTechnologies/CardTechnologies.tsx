@@ -15,7 +15,7 @@ interface CardProps {
 const theme = { 
     minWidth: 20,
     maxWidth: 400,  
-    backgroundColor: 'gray' }
+    backgroundColor: 'white' }
 
 function CardTechnologies({ title, icons }: CardProps){
     return (

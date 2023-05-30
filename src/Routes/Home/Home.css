@@ -23,123 +23,22 @@
     margin-bottom: 20%;
 }
 
+.Home-description.dark{
+    color: var(--color-text-dark);
+}
+.Home-description.light{
+    color: var(--color-text-light);
+}
 .Home-description > p{
     position: relative;
     margin-top: 100px;
     margin-left: 10px;
-    color: rgba(253, 253, 253, 0.842);
-}
-
-.ImageCode{
-    height: 100px;
-    width: 100px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 
-
-.SectionCategory{
-    min-height: auto;
-}
-
-.SectionCategory > h3{
-    margin-left: 0px;
-}
-
-.IconAboutMe{
-    width: 50px;
-    height: 50px;
-}
-
-ul {
-    list-style: none;
-    padding-left: 100px;   
-}
-
-.listAboutMe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.listAboutMe li{
-    display: flex;
-    clear:both;
-    margin-bottom: 10px;
-    align-items: center;
-}
-
-.listAboutMe img {
-    float: left;
-    margin-right: 10px;
-  }
-  
-.listAboutMe span {
-    display: block;
-  }
-
-
-
-.CardsTech{
-    display: flex;
-    flex-direction: column;
-}
-
-
-/* Estilos para telas grandes (desktop) */
-@media (min-width: 1024px) {
-    .Home-description{
-        font-weight: 200;
-        font-size: 5rem;        
-        flex-direction: row;
-    }
-    
-    .Home-description > p{
-        width: 500px;
-        text-align: justify;
-        margin-left: 25%;
-    }
-
-    .ImageCode{
-        height: 250px;
-        width: 250px;
-        margin-top: 150px;
-        margin-left: 100px;
-    }
-
-    .FirstSection{
-        height: 70%;
-    }
-
-    .AboutMe{
-        height: auto;
-    }
-    .AboutMe > h2{
-        font-size: 50px;
-    }
-
-    .AboutMe > h3{
-        font-size: 30px;
-    }
-
-    .IconAboutMe{
-        width: 50px;
-        height: 50px;
-    }
-    .TextAboutMe{
-        font-size: 25px;
-    }
-
-    .CardsTech{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-}
   
   /* Estilos para telas médias (tablets) */
-@media (max-width: 1023px) and (min-width: 768px) {
+@media (max-width: 1020px) and (min-width: 768px) {
     .Home-description{
         font-size: 3rem;
         font-weight: 300;
@@ -155,19 +54,26 @@ ul {
         height: 40%;
     }
 
-    .ImageCode{
-        height: 150px;
-        width: 150px;
-        margin-top: 120px;
-        margin-left: 100px;
-    }
+}
 
-    .CardsTech{
-        display: flex;
+
+/* Estilos para telas grandes (desktop) */
+@media (min-width: 1021px) {
+    .Home-description{
+        font-weight: 200;
+        font-size: 5rem;        
         flex-direction: row;
-        justify-content: space-around;
     }
-  }
+    
+    .Home-description > p{
+        width: 500px;
+        text-align: justify;
+        margin-left: 25%;
+    }
 
+    .FirstSection{
+        height: 70%;
+    }
 
+}
   

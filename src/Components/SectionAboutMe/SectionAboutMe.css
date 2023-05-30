@@ -6,10 +6,73 @@
     height: auto;
 }
 
+
+.AboutMe{
+    height: auto;
+}
+
 .AboutMe > h2{
+    font-size: 50px;
     margin-left: 50px;
 }
 
 .AboutMe > h3{
+    font-size: 30px;
     margin-left: 50px;
 }
+
+.IconAboutMe{
+    width: 50px;
+    height: 50px;
+}
+.TextAboutMe{
+    font-size: 25px;
+}
+
+.ImageCode{
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.IconAboutMe{
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 100px;   
+}
+
+.listAboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listAboutMe li{
+    display: flex;
+    clear:both;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.listAboutMe img {
+    float: left;
+    margin-right: 10px;
+  }
+  
+.listAboutMe span {
+    display: block;
+  }
+
+
+ /* Estilos para telas médias (tablets) */
+
+ @media (max-width: 1020px) and (min-width: 768px) {
+
+
+ }

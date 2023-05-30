@@ -1,10 +1,13 @@
+import './SectionProjects.css'
+import { useContext } from 'react'
 import CardProject from '../../Components/CardProject/CardProject'
+import MyContext from '../../Context'
 
 
 function SectionProjects(){
-
+    const {switchThemeHandler, theme} = useContext(MyContext)
     return(
-        <section className="SectionProjects">
+        <section className={`SectionProjects ${theme}`}>
             <section className="SectionWeb SectionCategory">
                 <h3>Projetos Web</h3>
                 <CardProject 

@@ -15,7 +15,7 @@ type CardProps ={
 const theme = { 
     minWidth: 20, 
     maxWidth: 400, 
-    backgroundColor: 'gray' }
+    backgroundColor: 'white' }
 
 function CardProject(props: CardProps) {
     const { titleCard, tech, description, hasDeploy} = props;
@@ -24,7 +24,7 @@ function CardProject(props: CardProps) {
       <CardContent className="CardContent">
         <p className="TitleCard">{titleCard}</p>
         {tech.map(element => {
-            return <img src={element} alt="" />
+            return <img key={element.length} src={element} alt="" />
         })}
         <p className="DescriptionCard">{description}</p>
       </CardContent>
