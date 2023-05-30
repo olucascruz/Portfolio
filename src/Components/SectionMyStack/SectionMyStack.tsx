@@ -6,8 +6,11 @@ import { FaHtml5, FaCss3, FaReact,
 import {DiDjango, DiMongodb, DiMysql, DiSqllite, DiPhotoshop} from 'react-icons/di';        
 import {SiKotlin, SiCsharp} from 'react-icons/si'
 import CardTechnologies from '../../Components/CardTechnologies/CardTechnologies'
-
+import MyContext from '../../Context';
+import { useContext } from 'react';
 function SectionMyStack(){
+    const {theme} = useContext(MyContext)
+
     const webIcons = [
         {icon:FaHtml5, name:"HTML5"}, {icon:FaCss3, name:"CSS"},
         {icon:FaReact, name:"ReactJs"}, {icon:FaNodeJs, name:"NodeJs"}, 
@@ -24,7 +27,7 @@ function SectionMyStack(){
     ]
     
     return(
-        <section className="Stack">
+        <section className={`Stack ${theme}`}>
                 <h3>Tecnologias que uso</h3>
                 <div className="CardsTech">
                     <CardTechnologies title='Web' icons={webIcons} />

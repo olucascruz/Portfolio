@@ -1,14 +1,35 @@
 
 .CardsTech{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
+.Stack.dark{
+color: white;
+}
+.Stack.light{
+  color: black;
+}
+
+.Stack h3 {
+  margin-left: 50px;
+}
 
   /* Estilos para telas médias (tablets) */
 
 @media (max-width: 1020px) and (min-width: 768px) {
+  .CardsTech{
+    flex-direction: column;
+    margin-left: 100px;
+  }
 
+}
+
+@media (min-width: 1021px) {
+  .CardsTech{
+    flex-direction: row;
+    margin-left: 100px;
+  }
 
 }
