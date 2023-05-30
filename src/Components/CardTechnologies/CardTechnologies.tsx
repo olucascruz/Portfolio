@@ -1,16 +1,40 @@
-import { Card, CardContent, CardActions, Button } from "@mui/material"
+import './CardTechnologies.css'
+import { Card, CardContent, ThemeProvider, createTheme } from "@mui/material"
+import { IconType } from 'react-icons';
+import { useState } from 'react';
 
+interface IconData {
+    icon: IconType;
+    name: string;
+  }
 
-function CardTechnologies(){
+interface CardProps {
+  title: string;
+  icons: IconData[]; 
+}
+
+const theme = { 
+    minWidth: 20,
+    maxWidth: 400,  
+    backgroundColor: 'gray' }
+
+function CardTechnologies({ title, icons }: CardProps){
     return (
-            <Card className= "CardTechnologies" sx={{ minWidth: 20 }}>
-                <CardContent className="CardContent">
-                    
-
-                    
-                </CardContent>
-            </Card>
-        )
+        <Card className= "CardTechnologies" sx={theme}>
+            <CardContent className="CardContent">
+                <h3>{title}</h3>
+                    <div className="Icons">
+                        {icons.map((Icon, index) => (
+                            
+                           <Icon.icon 
+                            title={Icon.name || Icon.icon.name} 
+                            key={index} size={48} />
+                            
+                        ))}
+                    </div>        
+            </CardContent>
+        </Card>
+    )
 }
 
 
