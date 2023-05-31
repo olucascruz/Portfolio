@@ -6,14 +6,15 @@
 }
 
 .Stack.dark{
-color: white;
+color: var(--color-text-dark);
 }
 .Stack.light{
-  color: black;
+  color: var(--color-text-light);
 }
 
 .Stack h3 {
   margin-left: 50px;
+  font-size: 40px;
 }
 
   /* Estilos para telas médias (tablets) */
