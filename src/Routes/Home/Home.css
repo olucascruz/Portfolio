@@ -35,6 +35,12 @@
     margin-left: 10px;
 }
 
+.ImageCode{
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
   
   /* Estilos para telas médias (tablets) */
@@ -52,8 +58,17 @@
 
     .FirstSection{
         height: 40%;
+        flex-direction: row;
+
     }
 
+    .ImageCode{
+        height: 200px;
+        width: 200px;
+        margin: 0;
+        margin-top: 100px;
+        margin-left: 5%;
+    }
 }
 
 
@@ -73,7 +88,16 @@
 
     .FirstSection{
         height: 70%;
+        flex-direction: row;
     }
+
+    .ImageCode{
+        height: 250px;
+        width: 250px;
+        margin: 0;
+        margin-top: 100px;
+        margin-left: 5%;
+    }  
 
 }
   

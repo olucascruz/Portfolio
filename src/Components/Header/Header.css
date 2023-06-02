@@ -48,6 +48,18 @@
   margin-left: 10px;
 }
 
+.BtSwitchTheme{
+  background-color: transparent;
+  border: transparent;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.BtSwitchTheme.dark:hover{
+  background-color: hwb(0 100% 0% / 0.103);
+}
+.BtSwitchTheme.light:hover{
+  background-color: rgba(0, 0, 0, 0.103);
+}
 @media (max-width: 1023px) and (min-width: 768px) {
 
 
