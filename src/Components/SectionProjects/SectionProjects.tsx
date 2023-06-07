@@ -8,7 +8,7 @@ function SectionProjects(){
     const {switchThemeHandler, theme} = useContext(MyContext)
     return(
         <section className={`SectionProjects ${theme}`}>
-            <section className="SectionWeb SectionCategory">
+            <section className="SectionWeb SectionCategory" id="Web">
                 <h3>Projetos Web</h3>
                 <CardProject 
                 titleCard={"Casa dos Jogos"} 
@@ -19,7 +19,7 @@ function SectionProjects(){
                 />
             </section>
           
-            <section className="SectionMobile SectionCategory">
+            <section className="SectionMobile SectionCategory" id="Mobile">
                 <h3>Projetos Mobile</h3>
                 <CardProject 
                 titleCard={"Organyze"} 
@@ -30,7 +30,7 @@ function SectionProjects(){
                 />
             </section>
             
-            <section className="SectionGame SectionCategory">
+            <section className="SectionGame SectionCategory" id="Game">
                 <h3>Projetos de Game</h3>
                 <CardProject 
                 titleCard={"Boss Batle Loop"} 
