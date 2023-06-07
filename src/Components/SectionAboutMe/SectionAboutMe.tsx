@@ -8,7 +8,7 @@ import iconWeb from './img/web-png-icon-10.jpg'
 function SectionAboutMe(){
 
     return(
-        <section className="AboutMe">
+        <section className="AboutMe" id="AboutMe">
                 <h2>Sobre mim</h2>
                 <ul className="listAboutMe">
                     <li>

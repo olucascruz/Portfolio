@@ -15,7 +15,7 @@ function Header(){
     }
     return(
         <header className={`App-header ${theme}`}>
-            <Link to={"/"} className="Name"><h1>Lucas Cruz</h1></Link>
+            <Link to={"#FirstSection"} className="Name"><h1>Lucas Cruz</h1></Link>
 
             <nav className="Categories">
                 <Link to={"#Web"} className="CategoryProject"><p>Web</p></Link>
