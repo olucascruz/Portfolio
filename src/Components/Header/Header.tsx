@@ -23,7 +23,7 @@ function Header(){
                 <Link to={"#Game"} className="CategoryProject"><p>Game</p></Link>
             </nav>
             <button className={`BtSwitchTheme ${theme}`} onClick={onClickSwitchTheme}>
-                {isDark ?<BsMoon size={50}></BsMoon>:<BsSun size={50}></BsSun>}
+                {isDark ?<BsMoon size={40}></BsMoon>:<BsSun size={40}></BsSun>}
             </button>
         </header>
         )

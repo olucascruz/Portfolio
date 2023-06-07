@@ -1,8 +1,7 @@
-
 .CardsTech{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    margin-left: 20%;    
 }
 
 .Stack.dark{
@@ -22,7 +21,8 @@ color: var(--color-text-dark);
 @media (max-width: 1020px) and (min-width: 768px) {
   .CardsTech{
     flex-direction: column;
-    margin-left: 100px;
+    justify-content: space-around;
+    margin-left: 0px;
   }
 
 }
@@ -30,7 +30,8 @@ color: var(--color-text-dark);
 @media (min-width: 1021px) {
   .CardsTech{
     flex-direction: row;
-    margin-left: 100px;
+    justify-content: space-around;
+    margin-left: 0px;
   }
 
 }

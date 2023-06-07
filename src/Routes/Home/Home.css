@@ -33,6 +33,7 @@
     position: relative;
     margin-top: 100px;
     margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 .ImageCode{
@@ -40,6 +41,7 @@
     width: 100px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 10px;
 }
 
   
