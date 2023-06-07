@@ -15,12 +15,12 @@ function Header(){
     }
     return(
         <header className={`App-header ${theme}`}>
-            <Link to={"#FirstSection"} className="Name"><h1>Lucas Cruz</h1></Link>
+            <Link to={"#FirstSection"} smooth className="Name"><h1>Lucas Cruz</h1></Link>
 
             <nav className="Categories">
-                <Link to={"#Web"} className="CategoryProject"><p>Web</p></Link>
-                <Link to={"#Mobile"} className="CategoryProject"><p>Mobile</p></Link>
-                <Link to={"#Game"} className="CategoryProject"><p>Game</p></Link>
+                <Link to={"#Web"} smooth className="CategoryProject"><p>Web</p></Link>
+                <Link to={"#Mobile"} smooth className="CategoryProject"><p>Mobile</p></Link>
+                <Link to={"#Game"} smooth className="CategoryProject"><p>Game</p></Link>
             </nav>
             <button className={`BtSwitchTheme ${theme}`} onClick={onClickSwitchTheme}>
                 {isDark ?<BsMoon size={40}></BsMoon>:<BsSun size={40}></BsSun>}

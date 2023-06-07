@@ -8,6 +8,10 @@
 .SectionCategory{
     min-height: auto;
     margin-left: 50px;
+    margin-top: -50px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+
 }
 
 .SectionCategory > h3{
