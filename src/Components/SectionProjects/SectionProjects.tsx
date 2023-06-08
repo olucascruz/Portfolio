@@ -2,6 +2,9 @@ import './SectionProjects.css'
 import { useContext } from 'react'
 import CardProject from '../../Components/CardProject/CardProject'
 import MyContext from '../../Context'
+import { SiCss3, SiHtml5, SiKotlin, SiUnity } from 'react-icons/si'
+import { BsAndroid } from 'react-icons/bs'
+import { DiDjango } from 'react-icons/di'
 
 
 function SectionProjects(){
@@ -12,7 +15,7 @@ function SectionProjects(){
                 <h3>Projetos Web</h3>
                 <CardProject 
                 titleCard={"Casa dos Jogos"} 
-                tech = {["aaa"]}
+                tech = {[DiDjango, SiHtml5, SiCss3]}
                 description={"Um site para desenvolvedores indie divulgarem seus jogos"}
                 link = {""}
                 hasDeploy = {false}
@@ -23,7 +26,7 @@ function SectionProjects(){
                 <h3>Projetos Mobile</h3>
                 <CardProject 
                 titleCard={"Organyze"} 
-                tech = {["aaa"]}
+                tech = {[SiKotlin, BsAndroid]}
                 description={"Um aplicativo para te ajudar a organizar os estudos "}
                 link = {""}
                 hasDeploy = {false}
@@ -34,7 +37,7 @@ function SectionProjects(){
                 <h3>Projetos de Game</h3>
                 <CardProject 
                 titleCard={"Boss Batle Loop"} 
-                tech = {["aaa"]}
+                tech = {[SiUnity]}
                 description={"Um jogo shooter de batalha de chefes"}
                 link = {""}
                 hasDeploy = {true}

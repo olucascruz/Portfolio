@@ -3,10 +3,11 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import './CardProject.css'
+import { IconType } from 'react-icons';
 
 type CardProps ={
     titleCard:string
-    tech: string[]
+    tech: IconType[]
     description: string
     link: string
     hasDeploy: boolean
@@ -23,9 +24,11 @@ function CardProject(props: CardProps) {
     <Card className= "CardProject" sx={theme}>
       <CardContent className="CardContent">
         <p className="TitleCard">{titleCard}</p>
-        {tech.map(element => {
-            return <img key={element.length} src={element} alt="" />
-        })}
+        <div className="Techs">
+          {tech.map((IconComponent, index) => (
+            <IconComponent size={35} key={index}/>        
+          ))}
+        </div>
         <p className="DescriptionCard">{description}</p>
       </CardContent>
       <CardActions className="CardActions">
