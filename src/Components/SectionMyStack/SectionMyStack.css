@@ -1,7 +1,7 @@
 .CardsTech{
     display: flex;
     flex-direction: column;
-    margin-left: 20%;    
+    margin-left: 10%;
 }
 
 .Stack.dark{
@@ -22,7 +22,7 @@ color: var(--color-text-dark);
   .CardsTech{
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 0px;
+    margin-left: 20%;
   }
 
 }

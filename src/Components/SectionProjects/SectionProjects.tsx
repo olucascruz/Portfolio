@@ -36,7 +36,7 @@ function SectionProjects(){
             <section className="SectionGame SectionCategory" id="Game">
                 <h3>Projetos de Game</h3>
                 <CardProject 
-                titleCard={"Boss Batle Loop"} 
+                titleCard={"Boss Battle Loop"} 
                 tech = {[SiUnity]}
                 description={"Um jogo shooter de batalha de chefes"}
                 link = {""}
