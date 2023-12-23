@@ -11,7 +11,7 @@ import ErrorPage from './Routes/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
 {
-  path: "/Portiolio", 
+  path: "/", 
   element:<App/>,
   errorElement: <ErrorPage/>,
   children:[
