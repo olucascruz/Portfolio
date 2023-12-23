@@ -19,7 +19,7 @@ const theme = {
     backgroundColor: 'white' }
 
 function CardProject(props: CardProps) {
-    const { titleCard, tech, description, hasDeploy} = props;
+    const { titleCard, tech, description, hasDeploy, link} = props;
     return (
     <Card className= "CardProject" sx={theme}>
       <CardContent className="CardContent">
@@ -32,7 +32,7 @@ function CardProject(props: CardProps) {
         <p className="DescriptionCard">{description}</p>
       </CardContent>
       <CardActions className="CardActions">
-        <Button sx={{color:'black'}} size="small">{hasDeploy ? "Acessar":"Ver Repositorio"}</Button>
+        <Button href={link} sx={{color:'black'}} size="small">{hasDeploy ? "Acessar":"Ver Repositório"}</Button>
       </CardActions>
     </Card>
   );
