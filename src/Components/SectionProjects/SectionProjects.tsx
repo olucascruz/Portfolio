@@ -2,13 +2,16 @@ import './SectionProjects.css'
 import { useContext } from 'react'
 import CardProject from '../../Components/CardProject/CardProject'
 import MyContext from '../../Context'
-import { SiCss3, SiHtml5, SiKotlin, SiUnity } from 'react-icons/si'
+import { SiCss3, SiHtml5, SiKotlin} from 'react-icons/si'
 import { BsAndroid } from 'react-icons/bs'
 import { DiDjango } from 'react-icons/di'
 
 
 function SectionProjects(){
-    const {switchThemeHandler, theme} = useContext(MyContext)
+    const casaDosJogos = "https://github.com/olucascruz/casa_dos_jogos"
+    const organyze = "https://github.com/olucascruz/Organyze"
+
+    const {theme} = useContext(MyContext)
     return(
         <section className={`SectionProjects ${theme}`}>
             <section className="SectionWeb SectionCategory" id="Web">
@@ -17,7 +20,7 @@ function SectionProjects(){
                 titleCard={"Casa dos Jogos"} 
                 tech = {[DiDjango, SiHtml5, SiCss3]}
                 description={"Um site para desenvolvedores indie divulgarem seus jogos"}
-                link = {""}
+                link = {casaDosJogos}
                 hasDeploy = {false}
                 />
             </section>
@@ -28,21 +31,12 @@ function SectionProjects(){
                 titleCard={"Organyze"} 
                 tech = {[SiKotlin, BsAndroid]}
                 description={"Um aplicativo para te ajudar a organizar os estudos "}
-                link = {""}
+                link = {organyze}
                 hasDeploy = {false}
                 />
             </section>
             
-            <section className="SectionGame SectionCategory" id="Game">
-                <h3>Projetos de Game</h3>
-                <CardProject 
-                titleCard={"Boss Battle Loop"} 
-                tech = {[SiUnity]}
-                description={"Um jogo shooter de batalha de chefes"}
-                link = {""}
-                hasDeploy = {true}
-                />
-            </section>
+            
         </section>
             )
 }
