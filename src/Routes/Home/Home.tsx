@@ -8,7 +8,7 @@ import MyContext from '../../Context';
 
 function Home(){
     const {theme} = useContext(MyContext)
-    const TITLE = "Lucas cruz portfólio"
+    const TITLE:string = "Lucas cruz portfólio"
     useEffect(() => {
         document.title = TITLE
      }, []);
