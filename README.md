@@ -1,2 +1,2 @@
-## Portifolio
-Este é o portifolio
+## Portfólio
+Este é o portfólio
