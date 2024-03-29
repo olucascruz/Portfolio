@@ -2,7 +2,7 @@ import './SectionProjects.css'
 import { useContext } from 'react'
 import CardProject from '../../Components/CardProject/CardProject'
 import MyContext from '../../Context'
-import { SiCss3, SiHtml5, SiKotlin} from 'react-icons/si'
+import { SiCss3, SiFlask, SiHtml5, SiKotlin, SiReact} from 'react-icons/si'
 import { BsAndroid } from 'react-icons/bs'
 import { DiDjango } from 'react-icons/di'
 
@@ -20,6 +20,14 @@ function SectionProjects(){
                 titleCard={"Casa dos Jogos"} 
                 tech = {[DiDjango, SiHtml5, SiCss3]}
                 description={"Um site para desenvolvedores indie divulgarem seus jogos"}
+                link = {casaDosJogos}
+                hasDeploy = {false}
+                />
+
+                <CardProject 
+                titleCard={"AnimeRec"} 
+                tech = {[SiFlask, SiReact, SiCss3, SiHtml5]}
+                description={"Um site que usa um sistema de comendação baseado em filtragem colaborativa para te recomendar animes."}
                 link = {casaDosJogos}
                 hasDeploy = {false}
                 />

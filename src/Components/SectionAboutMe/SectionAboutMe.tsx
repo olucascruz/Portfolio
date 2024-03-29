@@ -16,7 +16,7 @@ function SectionAboutMe(){
                 <ul className="listAboutMe">
                     <li>
                         <img className="IconAboutMe" src={iconComputer} alt="Icone Computador" />
-                        <span className="TextAboutMe">Graduando em Sistemas de Informação 6 periodo</span>
+                        <span className="TextAboutMe">Graduando em Sistemas de Informação 7º período</span>
                     </li>
                     <li>
                         <img className="IconAboutMe" src={iconWeb} alt="Icone Web" />
@@ -60,7 +60,7 @@ function SectionAboutMe(){
                         <a href={LINKITCHIO}>
                             <img className="IconLink" src={iconGame} alt="Icone Videogame" />
                             <span className="TextAboutMe">
-                                Portifolio de GameDev
+                                Portfolio de GameDev
                             </span>
                         </a>
                     </li>
