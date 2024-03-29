@@ -24,13 +24,13 @@ function SectionProjects(){
                 hasDeploy = {false}
                 />
 
-                <CardProject 
+                {/* <CardProject 
                 titleCard={"AnimeRec"} 
                 tech = {[SiFlask, SiReact, SiCss3, SiHtml5]}
                 description={"Um site que usa um sistema de comendação baseado em filtragem colaborativa para te recomendar animes."}
                 link = {casaDosJogos}
                 hasDeploy = {false}
-                />
+                /> */}
             </section>
           
             <section className="SectionMobile SectionCategory" id="Mobile">
