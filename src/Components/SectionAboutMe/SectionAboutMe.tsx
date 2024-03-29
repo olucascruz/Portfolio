@@ -60,7 +60,7 @@ function SectionAboutMe(){
                         <a href={LINKITCHIO}>
                             <img className="IconLink" src={iconGame} alt="Icone Videogame" />
                             <span className="TextAboutMe">
-                                Portfolio de GameDev
+                                Portfólio de GameDev
                             </span>
                         </a>
                     </li>
