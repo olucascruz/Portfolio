@@ -16,7 +16,7 @@ function SectionAboutMe(){
                 <ul className="listAboutMe">
                     <li>
                         <img className="IconAboutMe" src={iconComputer} alt="Icone Computador" />
-                        <span className="TextAboutMe">Graduando em Sistemas de Informação 7º período</span>
+                        <span className="TextAboutMe">Graduando em Sistemas de Informação - UEA</span>
                     </li>
                     <li>
                         <img className="IconAboutMe" src={iconWeb} alt="Icone Web" />
@@ -34,8 +34,6 @@ function SectionAboutMe(){
                 <h3>Aprendendo</h3>
                 <ul>
                     <li className="TextAboutMe" >RPA - Robotic process automation</li>
-                    <li className="TextAboutMe" >Machine learning</li>
-                    <li className="TextAboutMe">Engenharia de Software</li>
                 </ul>
                 <h3>Links</h3>
                 <ul>
