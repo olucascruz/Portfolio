@@ -11,12 +11,12 @@ import ErrorPage from './Routes/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
 {
-  path: "/Portfolio", 
+  path: "/", 
   element:<App/>,
   errorElement: <ErrorPage/>,
   children:[
   {
-    path:"/Portfolio",
+    path:"/",
     element: <Home/>
   }
   ]
