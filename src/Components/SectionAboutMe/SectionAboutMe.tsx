@@ -17,6 +17,11 @@ function SectionAboutMe(){
                     <li>
                         <img className="IconAboutMe" src={iconComputer} alt="Icone Computador" />
                         <span className="TextAboutMe">Graduando em Sistemas de Informação - UEA</span>
+                        
+
+                    </li>
+                    <li>
+                        <span className="TextAboutMe">TCC em andamento: sistema web gamificado de gestão de ensino</span>
                     </li>
                     <li>
                         <img className="IconAboutMe" src={iconWeb} alt="Icone Web" />
@@ -28,12 +33,14 @@ function SectionAboutMe(){
                     </li>
                     <li>
                         <img className="IconAboutMe" src={iconGame} alt="Icone Videogame" />
-                        <span className="TextAboutMe">Desenvolvedor de Jogos</span>
+                        <span className="TextAboutMe">Desenvolvedor de Jogos - Com foco em mecânicas e UI</span>
                     </li>
                 </ul>
                 <h3>Aprendendo</h3>
                 <ul>
                     <li className="TextAboutMe" >RPA - Robotic process automation</li>
+                    <li className="TextAboutMe" >Gamificação</li>
+                    <li className="TextAboutMe" >Docker</li>
                 </ul>
                 <h3>Links</h3>
                 <ul>

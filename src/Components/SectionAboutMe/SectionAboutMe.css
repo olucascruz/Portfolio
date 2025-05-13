@@ -40,7 +40,7 @@
 
 ul {
     list-style: none;
-    padding-left: 100px;   
+    padding-left: 0;   
 }
 
 .listAboutMe {
@@ -69,6 +69,37 @@ ul {
  /* Estilos para telas médias (tablets) */
 
  @media (max-width: 1020px) and (min-width: 768px) {
+    .AboutMe > h2{
+        font-size: 50px;
+        margin-left: 0;
+    }
+    
+    .AboutMe > h3{
+        font-size: 30px;
+        margin-left: 0;
+    }
 
-
+    ul {
+        list-style: none;
+        padding-left: 100px;   
+    }
  }
+
+ @media (min-width: 1021px) {
+    .AboutMe > h2 {
+        font-size: 50px;
+        margin-left: 50px;
+
+    }
+
+    .AboutMe > h3 {
+        font-size: 30px;
+        margin-left: 50px;
+
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 100px;
+    }
+}

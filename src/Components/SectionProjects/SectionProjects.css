@@ -6,16 +6,18 @@
 }
 
 .SectionCategory{
+    display: flex;
+    justify-content: space-between;
     min-height: auto;
     margin-left: 50px;
+    margin-right: 50px;
     margin-top: -50px;
     padding-top: 50px;
     padding-bottom: 5px;
-
+    flex-wrap: wrap; /* Permite quebrar linha */
 }
 
-.SectionCategory > h3{
-    margin-left: 10px;
+ h3{
     font-size: 25px;   
 
 }
@@ -24,15 +26,18 @@
   /* Estilos para telas médias (tablets) */
 @media (max-width: 1020px) and (min-width: 768px) {
 
-    .SectionCategory > h3{
-            font-size: 30px;   
+     h3{
+         font-size: 30px;   
     }
 
 }
 
 @media (min-width: 1020px){
-    .SectionCategory > h3{
+    h3{
         font-size: 40px;   
+        margin-left: 50px;
+
+
     }
 
 }

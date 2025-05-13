@@ -2,20 +2,20 @@ import './SectionMyStack.css'
 import { FaHtml5, FaCss3, FaReact, 
     FaNodeJs, FaAndroid, FaJava,
     FaUnity} from 'react-icons/fa';
-
-import {DiDjango, DiMongodb, DiMysql, DiSqllite, DiPhotoshop} from 'react-icons/di';        
-import {SiKotlin, SiCsharp, SiFlask} from 'react-icons/si'
+import {DiDjango, DiMongodb, DiSqllite, DiPostgresql} from 'react-icons/di';        
+import {SiKotlin, SiCsharp, SiFastapi, SiGimp} from 'react-icons/si'
 import CardTechnologies from '../../Components/CardTechnologies/CardTechnologies'
 import MyContext from '../../Context';
 import { useContext } from 'react';
+
 function SectionMyStack(){
     const {theme} = useContext(MyContext)
 
     const webIcons = [
         {icon:FaHtml5, name:"HTML5"}, {icon:FaCss3, name:"CSS"},
         {icon:FaReact, name:"ReactJs"}, {icon:FaNodeJs, name:"NodeJs"}, 
-        {icon:SiFlask, name:"Flask"}, {icon: DiDjango, name:"Django"}, 
-        {icon:DiMongodb, name:"Mongodb"}, {icon:DiMysql, name:"MySQL"}
+        {icon:SiFastapi, name:"FastAPI"}, {icon: DiDjango, name:"Django"}, 
+        {icon:DiMongodb, name:"Mongodb"}, {icon:DiPostgresql, name:"Postgresql"}
     ]
     const mobileIcons = [
         {icon:FaAndroid, name: "Android Nativo"}, {icon:SiKotlin, name:"Kotlin"}, 
@@ -23,7 +23,7 @@ function SectionMyStack(){
     ]
     const gameIcons = [
         {icon:FaUnity, name:"Unity"}, {icon:SiCsharp, name:"C#"}, 
-        {icon:DiPhotoshop, name:"Photoshop"}
+        {icon:SiGimp, name:"Gimp"}
     ]
     
     return(

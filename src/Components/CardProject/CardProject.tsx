@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import './CardProject.css'
 import { IconType } from 'react-icons';
+import React from 'react';
 
 type CardProps ={
     titleCard:string
@@ -29,7 +30,13 @@ function CardProject(props: CardProps) {
             <IconComponent size={35} key={index}/>        
           ))}
         </div>
-        <p className="DescriptionCard">{description}</p>
+        <p className="DescriptionCard">
+          {description.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}</p>
       </CardContent>
       <CardActions className="CardActions">
         <Button href={link} sx={{color:'black'}} size="small">{hasDeploy ? "Acessar":"Ver Repositório"}</Button>

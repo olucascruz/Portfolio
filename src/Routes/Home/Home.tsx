@@ -17,7 +17,7 @@ function Home(){
         <div className="App-home">
             <section className="FirstSection" id="FirstSection">
                 <div className={`Home-description ${theme}`}>
-                    <p>Ola sou um desenvolvedor de software.</p>    
+                    <p>Olá sou um desenvolvedor de software.</p>    
                     <img className='ImageCode' src={iconCode} alt="" />
                 </div>
             </section>
